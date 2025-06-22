@@ -9,7 +9,11 @@ This project showcases my skills, projects, and experience as a full-stack devel
 
 ## 📸 Preview
 
-![Portfolio Preview](./preview.png)
+![](./portfolio_image.png)
+![](./portfolio_skills.png)
+![](./portfolio_white.png)
+
+
 
 ## ✨ Features
 
