@@ -9,9 +9,9 @@ This project showcases my skills, projects, and experience as a full-stack devel
 
 ## 📸 Preview
 
-![](./portfolio_image.png)
-![](./portfolio_skills.png)
-![](./portfolio_white.png)
+![](./public/portfolio_image.png)
+![](./public/portfolio_skills.png)
+![](./public/portfolio_white.png)
 
 
 
