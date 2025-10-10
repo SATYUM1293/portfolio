@@ -17,6 +17,8 @@ const AnimationVariants = {
   }),
 };
 
+
+
 export default function Skills() {
   const { ref, inView } = useSectionInView("Skills");
 
