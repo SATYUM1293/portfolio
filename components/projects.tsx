@@ -10,17 +10,17 @@ export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
 
   return (
-    <AnimateSection className="py-20 px-6">
-      <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-        <SectionHeading>My Projects</SectionHeading>
-        <div>
-          {projectsData.map((project, index) => (
-            <React.Fragment key={index}>
-              <Project {...project} />
-            </React.Fragment>
-          ))}
-        </div>
-      </section>
-    </AnimateSection>
+    // <AnimateSection className="py-20 px-6">
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+      <SectionHeading>My Projects</SectionHeading>
+      <div>
+        {projectsData.map((project, index) => (
+          <React.Fragment key={index}>
+            <Project {...project} />
+          </React.Fragment>
+        ))}
+      </div>
+    </section>
+    // </AnimateSection>
   );
 }
