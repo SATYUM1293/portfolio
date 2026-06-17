@@ -1,5 +1,5 @@
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaBriefcase, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/discord_clone.png";
 import rmtdevImg from "@/public/crypto_verse.png";
@@ -53,18 +53,27 @@ export const experiencesData = [
   {
     title: "UI/UX Designer",
     location: "Rajpura, Punjab",
-    description:"Successfully led the design process, incorporating user research and usability testing to create aesthetically pleasing designs, developed interactive prototypes to demonstrate product features, optimized designs for accessibility and usability, and ensured evolving end-user needs were met, resulting in consistently positive feedback and successful project outcomes.",
+    description:
+      "Successfully led the design process, incorporating user research and usability testing to create aesthetically pleasing designs, developed interactive prototypes to demonstrate product features, optimized designs for accessibility and usability, and ensured evolving end-user needs were met, resulting in consistently positive feedback and successful project outcomes.",
     icon: React.createElement(FaReact),
     date: "2023",
   },
   {
     title: "Computer Science Student",
     location: "Rajpura, Punjab",
-    description:"Hailing from Chitkara University, I am a dedicated final-year Computer Science student deeply immersed in a variety of co-curricular pursuits. I am actively expanding into the realm of 3D design and Devops. Engaging in activities such as football, hackathons, and designathons has equipped me with a robust skill set and a proactive approach to problem-solving, essential for thriving in dynamic technological landscapes.",
+    description:
+      "Hailing from Chitkara University, I am a dedicated final-year Computer Science student deeply immersed in a variety of co-curricular pursuits. I am actively expanding into the realm of 3D design and Devops. Engaging in activities such as football, hackathons, and designathons has equipped me with a robust skill set and a proactive approach to problem-solving, essential for thriving in dynamic technological landscapes.",
     icon: React.createElement(FaReact),
-    date: "2021 - Present",
+    date: "2021 - 2025",
   },
-
+  {
+    title: "Project Analyst - Frontend Developer",
+    location: "Aerocity, Delhi",
+    description:
+      "Stepping into the professional arena with EY LLP, I serve as a Frontend Engineer on a mission-critical, national-scale RegTech (Regulatory Technology) platform for the public sector. I architect and optimize data-intensive dashboards and secure user workflows focused on compliance tracking and cross-border financial reporting. This high-security corporate environment has sharpened my ability to build highly accessible, performance-optimized, and strictly compliant enterprise interfaces.",
+    icon: React.createElement(FaBriefcase),
+    date: "2025 - Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -72,19 +81,20 @@ export const projectsData = [
     title: "Discord Clone",
     description:
       "In progress Discord clone to demonstrate expertise in full-stack web development, focusing on frontend and backend functionality, real-time communication features and database management.",
-    tags: ["React", "Next.js", "Socket.io", "Tailwind", "Prisma","MySQL"],
+    tags: ["React", "Next.js", "Socket.io", "Tailwind", "Prisma", "MySQL"],
     imageUrl: corpcommentImg,
   },
   {
     title: "CryptoVerse",
     description:
       "This comprehensive React application keeps you ahead in the ever-evolving crypto world, offering real-time data, news and analysis. Cryptoverse is not just a web app, it's a PWA! ",
-    tags: ["React", "Redux-Toolkit", "RestAPI", "ChartJS", "PWA","Ant-Design"],
+    tags: ["React", "Redux-Toolkit", "RestAPI", "ChartJS", "PWA", "Ant-Design"],
     imageUrl: rmtdevImg,
   },
   {
     title: "3D Hero Section",
-    description: "Experience a captivating introduction with a React app featuring a visually stunning Spline-powered 3D hero section, showcasing seamless integration for a visually appealing start.",
+    description:
+      "Experience a captivating introduction with a React app featuring a visually stunning Spline-powered 3D hero section, showcasing seamless integration for a visually appealing start.",
     tags: ["React", "Spline", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
